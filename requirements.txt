@@ -2,3 +2,4 @@ flask
 geopandas
 folium
 openpyxl
+gunicorn
