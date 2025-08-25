@@ -11,7 +11,7 @@ main_bp = Blueprint("main", __name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "..", "data")
 GJSON_REGIONES = os.path.join(DATA_DIR, "regiones_cr.geojson")
-EXCEL_INFO = os.path.join(DATA_DIR, "info.xlsx")
+EXCEL_INFO = os.path.join(DATA_DIR, "data.xlsx")
 
 
 def _norm(s: str) -> str:
