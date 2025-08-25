@@ -1,0 +1,4 @@
+flask
+geopandas
+folium
+openpyxl
